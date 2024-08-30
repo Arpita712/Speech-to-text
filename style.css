@@ -1,0 +1,52 @@
+*, *::after, *::before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: cursive;
+    font-size: 16px;
+    margin: 0;
+    background: #dbbe3b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #000;
+}
+h1{
+    font-size: 40px;
+    color: #000;
+}
+
+.voice_to_text{
+    width: 600px;
+    text-align: center;
+}
+#convert_text{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(251, 247, 177);
+    border-radius: 10px ;
+    resize: none;
+    padding: 10px;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+button{
+    background: #000;
+    margin: 20px;
+    color: white;
+    width: 200px;
+    font-size: 16px;
+    padding: 12px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: cursive;
+} 
+button:hover{
+    background: rgb(185, 177, 8);
+    color: #000;
+}
